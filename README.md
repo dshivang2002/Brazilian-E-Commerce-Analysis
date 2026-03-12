@@ -13,8 +13,9 @@ It includes multiple tables such as:
 1. Customers dataset
 2. Orders dataset
 3. Order items
-Payments
-Reviews
-Products
-Sellers
+4. Payments
+5. Reviews
+6. Products
+7. Sellers
+
 These tables provide insights into customer behavior, payment methods, delivery times, and product performance.
