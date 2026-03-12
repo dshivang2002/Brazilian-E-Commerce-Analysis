@@ -19,3 +19,7 @@ It includes multiple tables such as:
 7. Sellers
 
 These tables provide insights into customer behavior, payment methods, delivery times, and product performance.
+
+Data Schema is :
+
+<img width="2486" height="1496" alt="HRhd2Y0" src="https://github.com/user-attachments/assets/aab1dd64-8893-472d-ba68-cb4697b6bfca" />
