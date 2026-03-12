@@ -20,6 +20,7 @@ It includes multiple tables such as:
 
 These tables provide insights into customer behavior, payment methods, delivery times, and product performance.
 
-Data Schema is :
+## Data Schema is :
 
-<img width="2486" height="1496" alt="HRhd2Y0" src="https://github.com/user-attachments/assets/aab1dd64-8893-472d-ba68-cb4697b6bfca" />
+<img width="1786" height="1075" alt="HRhd2Y01" src="https://github.com/user-attachments/assets/ae2e75ef-26fb-4750-8ffe-b1c7b10e4962" />
+
