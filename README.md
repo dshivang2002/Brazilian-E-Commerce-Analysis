@@ -10,9 +10,9 @@ This dataset contains information about e-commerce orders made in Brazil between
 
 It includes multiple tables such as:
 
-Customers dataset
-Orders dataset
-Order items
+1. Customers dataset
+2. Orders dataset
+3. Order items
 Payments
 Reviews
 Products
