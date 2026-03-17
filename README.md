@@ -17,6 +17,8 @@ It includes multiple tables such as:
 5. Reviews
 6. Products
 7. Sellers
+8. Geolocation
+9. Product Category Name
 
 These tables provide insights into customer behavior, payment methods, delivery times, and product performance.
 
