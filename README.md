@@ -1,8 +1,7 @@
 # 🛒 Brazilian E-Commerce (Olist) — EDA Insights & Recommendations
-## 📦 Dataset Overview
 
-**Dataset:** Olist Brazilian E-Commerce Public Dataset
-**Scope:** 99,441 customers | 99,441 orders | 32,951 products | 73 categories | 112,650 order items
+**Dataset:** Olist Brazilian E-Commerce Public Dataset \n
+**Scope:** 99,441 customers | 99,441 orders | 32,951 products | 73 categories | 112,650 order items \n
 **Period:** 2016 – 2018
 
 ---
