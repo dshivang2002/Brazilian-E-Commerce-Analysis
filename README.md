@@ -1,5 +1,5 @@
 # 🛒 Brazilian E-Commerce (Olist) — EDA Insights & Recommendations
-Dataset: Olist Brazilian E-Commerce Public Dataset
+# Dataset: Olist Brazilian E-Commerce Public Dataset
 Scope: 99,441 customers | 99,441 orders | 32,951 products | 73 categories | 112,650 order items
 Period: 2016 – 2018
 In this project, I analyze a Brazilian e-commerce dataset to understand customer behavior, payment patterns, delivery performance, and product trends.
@@ -8,7 +8,7 @@ The goal of this analysis is to explore the dataset and extract meaningful insig
 
 Tools used in this analysis include Python, Pandas, and data visualization libraries
 
-# Dataset Overview
+# 🗂️ Dataset Structure Overview
 This dataset contains information about e-commerce orders made in Brazil between 2016 and 2018.
 
 It includes multiple tables such as:
