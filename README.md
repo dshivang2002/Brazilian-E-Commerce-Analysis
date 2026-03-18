@@ -1,5 +1,6 @@
 # 🛒 Brazilian E-Commerce (Olist) — EDA Insights & Recommendations
 
+
 > **Dataset:** Olist Brazilian E-Commerce Public Dataset  
 > **Scope:** 99,441 customers | 99,441 orders | 32,951 products | 73 categories | 112,650 order items  
 > **Period:** 2016 – 2018
@@ -34,6 +35,241 @@ These tables provide insights into customer behavior, payment methods, delivery 
 
 <img width="1786" height="1075" alt="HRhd2Y01" src="https://github.com/user-attachments/assets/ae2e75ef-26fb-4750-8ffe-b1c7b10e4962" />
 
+---
+
+## 1. Customer Geography Analysis
+ 
+### Findings
+- The dataset contains **99,441 unique customers** spread across **27 states** and **4,119 cities**.
+- **São Paulo (SP)** dominates with **41,746 customers (~42%)** — more than 3× the second-largest state.
+- **Top 5 States by Customer Count:**
+ 
+| Rank | State | Customers |
+|------|-------|-----------|
+| 1 | SP (São Paulo) | 41,746 |
+| 2 | RJ (Rio de Janeiro) | 12,852 |
+| 3 | MG (Minas Gerais) | 11,635 |
+| 4 | RS (Rio Grande do Sul) | 5,466 |
+| 5 | PR (Paraná) | 5,045 |
+ 
+- **Top cities within states:**
+  - SP → São Paulo city alone accounts for **15,540** customers
+  - RJ → Rio de Janeiro city: **6,882**
+  - MG → Belo Horizonte: **2,773**
+  - DF → Brasília dominates its state with **2,131** out of 2,140 customers (99.6%)
+ 
+### Insight
+> The customer base is **heavily concentrated in the Southeast region (SP, RJ, MG)**. Over 66% of customers come from just 3 states, revealing a major geographic imbalance and untapped potential in Brazil's North, Northeast, and Center-West regions.
+ 
+---
+ 
+## 2. Payment Behavior Analysis
+ 
+### Findings
+- **Total payment records:** 103,886 (no missing values, no duplicates)
+- **Payment Method Distribution:**
+ 
+| Payment Type | Count | Share |
+|---|---|---|
+| Credit Card | 76,795 | ~74% |
+| Boleto | 19,784 | ~19% |
+| Voucher | 5,775 | ~5.6% |
+| Debit Card | 1,529 | ~1.5% |
+| Not Defined | 3 | ~0% |
+ 
+- **Average Transaction Value by Method:**
+  - Credit Card: **R$ 163.32** (avg. 3.5 installments, up to 24)
+  - Boleto: **R$ 145.03** (always 1 installment)
+  - Debit Card: **R$ 142.57** (always 1 installment)
+  - Voucher: **R$ 65.70** (smallest ticket size)
+ 
+- Credit card users split payments into **up to 24 installments**, with a median of 3.
+ 
+### Insight
+> Credit cards are the overwhelmingly preferred payment method, and the installment feature (parcelamento) is a key driver of higher average order values. Boleto remains significant (~19%) as a banking staple for unbanked/underbanked populations in Brazil.
+ 
+---
+ 
+## 3. Order & Delivery Analysis
+ 
+### Findings
+- **Total Orders:** 99,441
+- **Delivery Rate:** **97.02%** — excellent operational efficiency
+- **Cancellation Rate:** only **0.63%**
+- **Average delivery time:** **12.09 days** from purchase to delivery
+ 
+- **Late Deliveries:** **8,212 orders (~8%)** were delivered later than the estimated date
+  - These span **1,359 different cities**
+  - Cities most affected by late deliveries:
+ 
+| City | Late Orders |
+|---|---|
+| São Paulo | 1,021 |
+| Rio de Janeiro | 796 |
+| Salvador | 213 |
+| Belo Horizonte | 170 |
+| Porto Alegre | 165 |
+ 
+- **Slowest product categories to deliver (avg. days):**
+ 
+| Category | Avg. Delivery Days |
+|---|---|
+| Office Furniture | 20 days |
+| Christmas Supplies | 15 days |
+| Security & Services | 15 days |
+| Fashion Shoes | 15 days |
+| Home Comfort 2 | 14 days |
+ 
+- **Fastest product categories to deliver:**
+ 
+| Category | Avg. Delivery Days |
+|---|---|
+| Arts & Craftmanship | 5 days |
+| La Cuisine | 7 days |
+| Books Imported | 8 days |
+| Fashion Children's Clothes | 8 days |
+| Food | 9 days |
+ 
+### Insight
+> While overall delivery performance is strong (97% success rate), the 8% late delivery rate in major urban centers like São Paulo and Rio is a concern — especially since these cities have the highest order volumes. Bulky categories like furniture and office supplies naturally take longer, but the gap between estimated and actual delivery in these categories needs attention.
+ 
+---
+ 
+## 4. Product Category Analysis
+ 
+### Findings
+- **Total unique products:** 32,951 across **73 categories**
+- **All 32,951 products were ordered at least once** — 100% catalogue utilization
+- **Top 10 Most Sold Product Categories:**
+ 
+| Rank | Category | Orders |
+|---|---|---|
+| 1 | Bed, Bath & Table | 11,115 |
+| 2 | Health & Beauty | 9,670 |
+| 3 | Sports & Leisure | 8,641 |
+| 4 | Furniture & Decor | 8,334 |
+| 5 | Computers & Accessories | 7,827 |
+| 6 | Housewares | 6,964 |
+| 7 | Watches & Gifts | 5,991 |
+| 8 | Telephony | 4,545 |
+| 9 | Garden Tools | 4,347 |
+| 10 | Auto | 4,235 |
+ 
+- **Bottom 5 Least Sold Categories:**
+ 
+| Category | Orders |
+|---|---|
+| Security & Services | 2 |
+| Fashion Children's Clothes | 8 |
+| La Cuisine | 14 |
+| CDs/DVDs/Musicals | 14 |
+| Arts & Craftmanship | 24 |
+ 
+### Insight
+> Home & lifestyle categories (bed/bath, health/beauty, sports) dominate demand. The bottom categories represent niche markets but could be growth opportunities with targeted marketing. The fact that every product was ordered at least once is a strong sign of catalogue health.
+ 
+---
+ 
+## 5. Customer Review & Satisfaction Analysis
+ 
+### Findings
+- Reviews analyzed: **96,361** (for delivered orders only)
+- **Best reviewed product categories (avg. score):**
+ 
+| Category | Avg. Score |
+|---|---|
+| Fashion Children's Clothes | 5.00 |
+| CDs, DVDs & Musicals | 4.64 |
+| Books (General Interest) | 4.51 |
+| Books (Imported) | 4.51 |
+| Construction Tools | 4.44 |
+ 
+- **Worst reviewed product categories (avg. score):**
+ 
+| Category | Avg. Score |
+|---|---|
+| Security & Services | 2.50 |
+| Diapers & Hygiene | 3.38 |
+| Office Furniture | 3.52 |
+| Home Comfort 2 | 3.63 |
+| Fashion Male Clothing | 3.76 |
+ 
+- **Undelivered orders with reviews (2,863 orders):**
+  - Shipped (not yet delivered): 1,043
+  - Cancelled: 609
+  - Unavailable: 597
+ 
+### Insight
+> Fashion and books consistently earn the highest satisfaction scores, likely due to clear expectations and good condition on delivery. Security services and hygiene products score the lowest — indicating either quality issues, delivery damage, or unmet expectations. Office Furniture's low rating aligns with its long delivery times (20 days avg.), suggesting a direct correlation between late delivery and poor reviews.
+ 
+---
+ 
+## 6. Seller Distribution Analysis
+ 
+### Findings
+- **Top cities by seller activity (orders fulfilled):**
+ 
+| City | Orders from Sellers |
+|---|---|
+| São Paulo | 27,983 |
+| Ibitinga | 7,750 |
+| Curitiba | 3,016 |
+| Santo André | 2,964 |
+| Belo Horizonte | 2,593 |
+ 
+- São Paulo sellers alone account for **~25% of all order items**
+- **Ibitinga** (a small city in SP state) is the #2 seller hub — likely a textile/clothing manufacturing cluster
+- Seller concentration mirrors customer concentration: SP state dominates on both demand and supply sides
+ 
+### Insight
+> The marketplace supply chain is heavily São Paulo-centric. This explains why late deliveries are highest in cities far from SP — long last-mile distances. Expanding seller networks in under-served regions (North/Northeast) could significantly reduce delivery times and improve satisfaction in those areas.
+ 
+---
+ 
+## 7. Pricing Analysis by Category
+ 
+### Findings
+- **Most expensive categories (avg. unit price):**
+ 
+| Category | Avg. Price (R$) |
+|---|---|
+| Computers | 1,098.34 |
+| Small Appliances (Home Oven) | 624.29 |
+| Home Appliances 2 | 476.12 |
+| Agro Industry & Commerce | 342.12 |
+| Musical Instruments | 281.62 |
+ 
+- **Most affordable categories (avg. unit price):**
+ 
+| Category | Avg. Price (R$) |
+|---|---|
+| Home Comfort 2 | 25.34 |
+| Flowers | 33.64 |
+| Diapers & Hygiene | 40.19 |
+| CDs/DVDs/Musicals | 52.14 |
+| Food & Drink | 54.60 |
+ 
+### Insight
+> High-ticket items like computers and large appliances have a natural fit with the credit card installment payment behavior observed (up to 24 installments). There's a clear pricing ecosystem at play — affordable everyday goods drive volume while expensive electronics drive revenue value.
+ 
+---
+ 
+## 8. Key Business Insights Summary
+ 
+| # | Insight | Impact |
+|---|---------|--------|
+| 1 | 97% delivery success rate — strong operational baseline | ✅ Positive |
+| 2 | 42% of customers are in São Paulo state alone | ⚠️ Geographic risk/opportunity |
+| 3 | 74% of payments are by credit card with installments | 💡 Revenue lever |
+| 4 | 8% of orders arrive later than estimated | ❌ Satisfaction risk |
+| 5 | Bed/Bath/Health/Beauty dominate sales volume | 💡 Category strength |
+| 6 | Office furniture has the worst delivery (20 days) AND low reviews (3.52) | ❌ Correlated pain point |
+| 7 | All 32,951 products sold at least once — full catalogue utilization | ✅ Positive |
+| 8 | Seller concentration mirrors customer concentration (SP-heavy) | ⚠️ Supply chain risk |
+| 9 | Security & Services has worst reviews (2.50 avg.) | ❌ Category quality issue |
+| 10 | Voucher payments have the smallest basket size (R$ 65.70) | 💡 Promotion lever |
+ 
+---
 ## 9. Recommendations to Improve the Platform
  
 ### 🚚 Logistics & Delivery
