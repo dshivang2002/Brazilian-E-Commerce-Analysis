@@ -82,6 +82,9 @@ These tables provide insights into customer behavior, payment methods, delivery 
   - Boleto: **R$ 145.03** (always 1 installment)
   - Debit Card: **R$ 142.57** (always 1 installment)
   - Voucher: **R$ 65.70** (smallest ticket size)
+
+ <img width="613" height="466" alt="image" src="https://github.com/user-attachments/assets/0694ab1a-e48a-4a2e-a103-f11d4b1159c8" />
+
  
 - Credit card users split payments into **up to 24 installments**, with a median of 3.
  
@@ -91,6 +94,9 @@ These tables provide insights into customer behavior, payment methods, delivery 
 ---
  
 ## 3. Order & Delivery Analysis
+
+<img width="756" height="271" alt="image" src="https://github.com/user-attachments/assets/f5d95431-9df3-4811-8350-a316b055f75a" />
+
  
 ### Findings
 - **Total Orders:** 99,441
@@ -109,6 +115,9 @@ These tables provide insights into customer behavior, payment methods, delivery 
 | Salvador | 213 |
 | Belo Horizonte | 170 |
 | Porto Alegre | 165 |
+
+<img width="827" height="487" alt="image" src="https://github.com/user-attachments/assets/23671aa1-5c9a-4d15-81a1-64d42126e488" />
+
  
 - **Slowest product categories to deliver (avg. days):**
  
@@ -119,6 +128,8 @@ These tables provide insights into customer behavior, payment methods, delivery 
 | Security & Services | 15 days |
 | Fashion Shoes | 15 days |
 | Home Comfort 2 | 14 days |
+<img width="743" height="451" alt="image" src="https://github.com/user-attachments/assets/655986ca-1ce9-49fe-96ad-3dc9e402b9f5" />
+
  
 - **Fastest product categories to deliver:**
  
@@ -129,14 +140,19 @@ These tables provide insights into customer behavior, payment methods, delivery 
 | Books Imported | 8 days |
 | Fashion Children's Clothes | 8 days |
 | Food | 9 days |
- 
+
+ <img width="736" height="448" alt="image" src="https://github.com/user-attachments/assets/d59ee90a-f5bd-4804-9216-1648e61f62bb" />
+
 ### Insight
 > While overall delivery performance is strong (97% success rate), the 8% late delivery rate in major urban centers like São Paulo and Rio is a concern — especially since these cities have the highest order volumes. Bulky categories like furniture and office supplies naturally take longer, but the gap between estimated and actual delivery in these categories needs attention.
  
 ---
  
 ## 4. Product Category Analysis
- 
+
+ <img width="518" height="468" alt="image" src="https://github.com/user-attachments/assets/87aa72ba-312f-4bee-acb5-5c2e559798a3" />
+
+
 ### Findings
 - **Total unique products:** 32,951 across **73 categories**
 - **All 32,951 products were ordered at least once** — 100% catalogue utilization
@@ -156,6 +172,8 @@ These tables provide insights into customer behavior, payment methods, delivery 
 | 10 | Auto | 4,235 |
  
 - **Bottom 5 Least Sold Categories:**
+- <img width="570" height="412" alt="image" src="https://github.com/user-attachments/assets/8241468e-837b-4c4e-b977-1d696912d237" />
+
  
 | Category | Orders |
 |---|---|
@@ -164,7 +182,8 @@ These tables provide insights into customer behavior, payment methods, delivery 
 | La Cuisine | 14 |
 | CDs/DVDs/Musicals | 14 |
 | Arts & Craftmanship | 24 |
- 
+
+
 ### Insight
 > Home & lifestyle categories (bed/bath, health/beauty, sports) dominate demand. The bottom categories represent niche markets but could be growth opportunities with targeted marketing. The fact that every product was ordered at least once is a strong sign of catalogue health.
  
@@ -183,6 +202,9 @@ These tables provide insights into customer behavior, payment methods, delivery 
 | Books (General Interest) | 4.51 |
 | Books (Imported) | 4.51 |
 | Construction Tools | 4.44 |
+
+<img width="757" height="448" alt="image" src="https://github.com/user-attachments/assets/6c1c0b43-cf95-4c96-b5b5-a4adf8c04925" />
+
  
 - **Worst reviewed product categories (avg. score):**
  
@@ -193,7 +215,10 @@ These tables provide insights into customer behavior, payment methods, delivery 
 | Office Furniture | 3.52 |
 | Home Comfort 2 | 3.63 |
 | Fashion Male Clothing | 3.76 |
- 
+
+<img width="757" height="444" alt="image" src="https://github.com/user-attachments/assets/12ce7325-7afd-4f08-af05-0c027ca8e47f" />
+
+
 - **Undelivered orders with reviews (2,863 orders):**
   - Shipped (not yet delivered): 1,043
   - Cancelled: 609
@@ -216,6 +241,9 @@ These tables provide insights into customer behavior, payment methods, delivery 
 | Curitiba | 3,016 |
 | Santo André | 2,964 |
 | Belo Horizonte | 2,593 |
+
+<img width="719" height="453" alt="image" src="https://github.com/user-attachments/assets/0508e281-077a-4236-b355-91191760aba7" />
+
  
 - São Paulo sellers alone account for **~25% of all order items**
 - **Ibitinga** (a small city in SP state) is the #2 seller hub — likely a textile/clothing manufacturing cluster
@@ -238,7 +266,9 @@ These tables provide insights into customer behavior, payment methods, delivery 
 | Home Appliances 2 | 476.12 |
 | Agro Industry & Commerce | 342.12 |
 | Musical Instruments | 281.62 |
- 
+
+<img width="812" height="408" alt="image" src="https://github.com/user-attachments/assets/cb7e358e-411a-49bf-8565-9b971be63375" />
+
 - **Most affordable categories (avg. unit price):**
  
 | Category | Avg. Price (R$) |
@@ -248,7 +278,10 @@ These tables provide insights into customer behavior, payment methods, delivery 
 | Diapers & Hygiene | 40.19 |
 | CDs/DVDs/Musicals | 52.14 |
 | Food & Drink | 54.60 |
- 
+
+ <img width="767" height="446" alt="image" src="https://github.com/user-attachments/assets/e096dde3-040b-4058-a811-d44a973f67a9" />
+
+
 ### Insight
 > High-ticket items like computers and large appliances have a natural fit with the credit card installment payment behavior observed (up to 24 installments). There's a clear pricing ecosystem at play — affordable everyday goods drive volume while expensive electronics drive revenue value.
  
